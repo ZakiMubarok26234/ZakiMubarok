@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaki Mubarok | Web Developer Portfolio</title>
+    
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Zaki Mubarok - Professional Web Developer specializing in Frontend Development, UI/UX Design, and Modern Web Technologies">
+    <meta name="keywords" content="web developer, frontend developer, UI/UX designer, react developer, javascript developer">
+    <meta name="author" content="Zaki Mubarok">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Zaki Mubarok | Web Developer Portfolio">
+    <meta property="og:description" content="Professional Web Developer specializing in Frontend Development and UI/UX Design">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zakimubarok.dev">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">Zaki</span>
+                <span class="logo-accent">Mubarok</span>
+            </a>
+            
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="bx bx-moon"></i>
+                </button>
+                <button class="mobile-menu-toggle" id="hamburger" aria-label="Toggle menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <span class="intro-text">Halo, Saya</span>
+            <h1>Zaki Mubarok</h1>
+            <div class="dynamic-text">Dan saya seorang <span class="multiple-text"></span></div>
+            <p>Passionate web developer dengan focus pada frontend development dan UI/UX design. Saya menciptakan pengalaman digital yang menarik dan fungsional dengan kode yang bersih dan efisien.</p>
+            
+            <div class="social-media">
+                <a href="https://github.com/ZakiMubarok26234" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/zaki-mubarok-3451bb269" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/zkii.mbr/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="mailto:mubarokjaki75@gmail.com?subject=Hello%20from%20Portfolio&body=Hi%20Zaki,%0A%0AI%20found%20your%20portfolio%20and%20would%20like%20to%20connect.%0A%0ABest%20regards," title="Send Email"><i class='bx bx-envelope'></i></a>
+            </div>
+            
+            <div class="btn-group">
+                <a href="#contact" class="btn">Hubungi Saya</a>
+                <a href="#projects" class="btn btn-secondary">Lihat Proyek</a>
+            </div>
+        </div>
+        
+        <div class="home-img">
+            <div class="img-container">
+                <img src="img/143467IMG-20230625-WA0009-(2).jpg" alt="Foto Profil Zaki Mubarok">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">Get to know me</span>
+                <h2 class="section-title">About <span class="text-accent">Me</span></h2>
+                <p class="section-description">
+                    Passionate about creating exceptional digital experiences through code
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-left">
+                    <div class="about-intro">
+                        <h3>Frontend Developer & UI/UX Enthusiast</h3>
+                        <p>
+                            I'm a dedicated web developer with a passion for creating beautiful, functional, 
+                            and user-friendly applications. My journey in web development started with curiosity 
+                            and has evolved into a love for clean code and innovative solutions.
+                        </p>
+                    </div>
+                    
+                    <div class="personal-info">
+                        <h4>Personal Information</h4>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Name:</span>
+                                <span class="info-value">Zaki Mubarok</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Experience:</span>
+                                <span class="info-value">-1 Years</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Location:</span>
+                                <span class="info-value">Indonesia</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">mubarokjaki75@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Phone:</span>
+                                <span class="info-value">+62 xxx-xxxx-xxxx</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Freelance:</span>
+                                <span class="info-value available">Available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-right">
+                    <div class="skills-overview">
+                        <h4>Core Technologies</h4>
+                        <div class="tech-stack">
+                            <div class="tech-item">
+                                <i class="bx bxl-javascript"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="bx bxl-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="bx bxl-html5"></i>
+                                <span>HTML</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="bx bxl-css3"></i>
+                                <span>CSS</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="bx bxl-tailwind-css"></i>
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="bx bxl-php"></i>
+                                <span>PHP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stats-overview">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="bx bx-trophy"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h4>4+</h4>
+                                <p>Projects Completed</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="bx bx-happy"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h4>0%</h4>
+                                <p>Client Satisfaction</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="bx bx-code-alt"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h4>-1</h4>
+                                <p>Years Experience</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-actions">
+                        <a href="cv/Zaki Mubarok - CV.pdf" class="btn btn-primary">
+                            <i class="bx bx-download"></i>
+                            <span>Download CV</span>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="bx bx-message-dots"></i>
+                            <span>Let's Talk</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">My Journey</span>
+                <h2 class="section-title">Experience & <span class="text-accent">Education</span></h2>
+                <p class="section-description">
+                    My professional journey and educational background
+                </p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Frontend Developer</h3>
+                            <span class="timeline-date">2024 - Present</span>
+                        </div>
+                        <h4>Freelance</h4>
+                        <p>
+                            Developing responsive web applications using modern JavaScript frameworks. 
+                            Focus on creating intuitive user interfaces and optimizing performance.
+                        </p>
+                        <div class="timeline-skills">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Web Development Student</h3>
+                            <span class="timeline-date">2023 - 2024</span>
+                        </div>
+                        <h4>Self-Taught & Online Courses</h4>
+                        <p>
+                            Intensive learning of web development fundamentals, modern frameworks, 
+                            and best practices through various online platforms and personal projects.
+                        </p>
+                        <div class="timeline-skills">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Computer Science Student</h3>
+                            <span class="timeline-date">2022 - Present</span>
+                        </div>
+                        <h4>University</h4>
+                        <p>
+                            Studying computer science fundamentals, algorithms, data structures, 
+                            and software engineering principles.
+                        </p>
+                        <div class="timeline-skills">
+                            <span>Programming</span>
+                            <span>Algorithms</span>
+                            <span>Database</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">What I Know</span>
+                <h2 class="section-title">Skills & <span class="text-accent">Technologies</span></h2>
+                <p class="section-description">
+                    Technologies and tools I use to bring ideas to life
+                </p>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skills-categories">
+                    <div class="skill-category" data-category="frontend">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="bx bx-code-alt"></i>
+                            </div>
+                            <h3>Frontend Development</h3>
+                            <p>Creating beautiful and interactive user interfaces</p>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class='bx bxl-html5'></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>HTML5</h4>
+                                    <div class="skill-level">
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="95%"></div>
+                                        </div>
+                                        <span>95%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class='bx bxl-css3'></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>CSS3</h4>
+                                    <div class="skill-level">
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="90%"></div>
+                                        </div>
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class='bx bxl-javascript'></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>JavaScript</h4>
+                                    <div class="skill-level">
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="85%"></div>
+                                        </div>
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class='bx bxl-react'></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>React</h4>
+                                    <div class="skill-level">
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="80%"></div>
+                                        </div>
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-category="backend">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="bx bx-server"></i>
+                            </div>
+                           <!---<h3>Backend Development</h3>
+                            <p>Building robust server-side applications</p>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class='bx bxl-php'></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>PHP</h4>
+                                    <div class="skill-level">
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="75%"></div>
+                                        </div>
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class='bx bxs-data'></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>MySQL</h4>
+                                    <div class="skill-level">
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="70%"></div>
+                                        </div>
+                                        <span>70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class='bx bxl-nodejs'></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Node.js</h4>
+                                    <div class="skill-level">
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="65%"></div>
+                                        </div>
+                                        <span>65%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                    
+                    <div class="skill-category" data-category="tools">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="bx bx-wrench"></i>
+                            </div>
+                            <h3>Tools & Frameworks</h3>
+                            <p>Development tools and frameworks I work with</p>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class='bx bxl-tailwind-css'></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Tailwind CSS</h4>
+                                    <div class="skill-level">
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="88%"></div>
+                                        </div>
+                                        <span>88%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class='bx bxl-bootstrap'></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Bootstrap</h4>
+                                    <div class="skill-level">
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="85%"></div>
+                                        </div>
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class='bx bxl-git'></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Git</h4>
+                                    <div class="skill-level">
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="80%"></div>
+                                        </div>
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class='bx bxl-figma'></i>
+                                </div>
+                                <div class="skill-info">
+                                    <h4>Figma</h4>
+                                    <div class="skill-level">
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="75%"></div>
+                                        </div>
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">My Work</span>
+                <h2 class="section-title">Featured <span class="text-accent">Projects</span></h2>
+                <p class="section-description">
+                    A showcase of my recent work and creative solutions
+                </p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="web">Web App</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="img/LowonganKerja.PNG" alt="Job Portal Website" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Live Demo">
+                                    <i class='bx bx-link-external'></i>
+                                </a>
+                                <a href="#" class="project-link" aria-label="View Source Code">
+                                    <i class='bx bxl-github'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Job Portal Website</h3>
+                            <span class="project-type">Full Stack</span>
+                        </div>
+                        <p class="project-description">
+                            Comprehensive job portal platform featuring CV templates, courses, 
+                            company reviews, and efficient job search functionality.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class='bx bx-code-alt'></i>
+                                <span>Full Stack</span>
+                            </div>
+                            <div class="stat">
+                                <i class='bx bx-calendar'></i>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="img/Company Profile.PNG" alt="Company Profile Website" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Live Demo">
+                                    <i class='bx bx-link-external'></i>
+                                </a>
+                                <a href="#" class="project-link" aria-label="View Source Code">
+                                    <i class='bx bxl-github'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Company Profile</h3>
+                            <span class="project-type">Web App</span>
+                        </div>
+                        <p class="project-description">
+                            Professional company profile website showcasing business information, 
+                            services, and contact details with modern design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class='bx bx-desktop'></i>
+                                <span>Responsive</span>
+                            </div>
+                            <div class="stat">
+                                <i class='bx bx-calendar'></i>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <img src="img/landing page.PNG" alt="Event Landing Page" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Live Demo">
+                                    <i class='bx bx-link-external'></i>
+                                </a>
+                                <a href="#" class="project-link" aria-label="View Source Code">
+                                    <i class='bx bxl-github'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Event Landing Page</h3>
+                            <span class="project-type">Frontend</span>
+                        </div>
+                        <p class="project-description">
+                            Modern and responsive landing page design for technology events 
+                            with interactive elements and smooth animations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class='bx bx-mobile'></i>
+                                <span>Mobile First</span>
+                            </div>
+                            <div class="stat">
+                                <i class='bx bx-calendar'></i>
+                                <span>2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="img/sekolah.PNG" alt="School Management System" loading="lazy">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View Live Demo">
+                                    <i class='bx bx-link-external'></i>
+                                </a>
+                                <a href="#" class="project-link" aria-label="View Source Code">
+                                    <i class='bx bxl-github'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>School Management System</h3>
+                            <span class="project-type">Web App</span>
+                        </div>
+                        <p class="project-description">
+                            Comprehensive school management system for handling student data, 
+                            parent information, and teacher management efficiently.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class='bx bx-data'></i>
+                                <span>Database</span>
+                            </div>
+                            <div class="stat">
+                                <i class='bx bx-calendar'></i>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-cta">
+                <p>Interested in seeing more of my work?</p>
+                <a href="https://github.com/ZakiMubarok26234" target="_blank" class="btn btn-primary">
+                    <i class='bx bxl-github'></i>
+                    <span>View All Projects</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Let's Work <span class="text-accent">Together</span></h2>
+                <p class="section-description">
+                    Ready to start your next project? Let's create something amazing together.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3>Let's discuss your project</h3>
+                        <p>
+                            I'm always excited to work on new projects and collaborate with 
+                            creative people. Feel free to reach out if you have a project in mind.
+                        </p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class='bx bx-envelope'></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Email</h4>
+                                <p>mubarokjaki75@gmail.com</p>
+                                <a href="mailto:mubarokjaki75@gmail.com" class="method-link">
+                                    Send Message <i class='bx bx-right-arrow-alt'></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class='bx bxl-linkedin'></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>LinkedIn</h4>
+                                <p>Connect with me professionally</p>
+                                <a href="https://www.linkedin.com/in/zaki-mubarok-3451bb269" target="_blank" class="method-link">
+                                    Connect <i class='bx bx-right-arrow-alt'></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class='bx bxl-whatsapp'></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>WhatsApp</h4>
+                                <p>Quick chat and consultation</p>
+                                <a href="#" class="method-link">
+                                    Chat Now <i class='bx bx-right-arrow-alt'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="availability">
+                        <div class="availability-status">
+                            <div class="status-indicator"></div>
+                            <span>Available for new projects</span>
+                        </div>
+                        <p>Response time: Usually within 24 hours</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-header">
+                            <h3>Send me a message</h3>
+                            <p>Fill out the form below and I'll get back to you soon.</p>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                                <i class='bx bx-user input-icon'></i>
+                            </div>
+                            <div class="input-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                                <i class='bx bx-envelope input-icon'></i>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                                <i class='bx bx-phone input-icon'></i>
+                            </div>
+                            <div class="input-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Choose a subject</option>
+                                    <option value="web-development">Web Development</option>
+                                    <option value="ui-ux-design">UI/UX Design</option>
+                                    <option value="consultation">Consultation</option>
+                                    <option value="collaboration">Collaboration</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <i class='bx bx-category input-icon'></i>
+                            </div>
+                        </div>
+                        
+                        <div class="input-group full-width">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+                            <i class='bx bx-message-dots input-icon'></i>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class='bx bx-loader-alt bx-spin'></i>
+                                Sending...
+                            </span>
+                            <i class='bx bx-send btn-icon'></i>
+                        </button>
+                        
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <a href="#home">
+                            <span class="logo-text">Zaki</span>
+                            <span class="logo-accent">.dev</span>
+                        </a>
+                    </div>
+                    <p class="footer-description">
+                        Passionate web developer creating exceptional digital experiences 
+                        through clean code and innovative solutions.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://github.com/ZakiMubarok26234" target="_blank" aria-label="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/zaki-mubarok-3451bb269" target="_blank" aria-label="LinkedIn">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="https://www.instagram.com/zkii.mbr/" target="_blank" aria-label="Instagram">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="mailto:mubarokjaki75@gmail.com" aria-label="Email">
+                            <i class='bx bx-envelope'></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Frontend Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Responsive Design</a></li>
+                        <li><a href="#">Web Optimization</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Get In Touch</h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class='bx bx-envelope'></i>
+                            <span>mubarokjaki75@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class='bx bx-map'></i>
+                            <span>Indonesia</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class='bx bx-time'></i>
+                            <span>Available for projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Zaki Mubarok. All rights reserved.</p>
+                </div>
+                <div class="footer-back-to-top">
+                    <a href="#home" class="back-to-top" aria-label="Back to top">
+                        <i class='bx bx-up-arrow-alt'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
